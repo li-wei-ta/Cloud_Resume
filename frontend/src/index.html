@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>David Li - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item item">
+              <a class="nav-link" href="#work-experience">Work Experience</a>
+            </li>
+            <li class="nav-item item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item item">
+              <a class="nav-link" href="#certification">Certifications</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="page cv-page">
+      <section class="cv-block block-intro border-bottom">
+        <div class="container">
+          <div class="avatar">
+            <img class="img-fluid rounded-circle" src="assets/img/avatar.jpg" />
+          </div>
+          <p>
+            Hello! I am <strong>David Li</strong>, a cloud engineer with a
+            passion for developing scalable and secure cloud-based solutions. I
+            specialize in AWS services and enjoy working on projects that
+            involve automation, infrastructure as code, and web development.
+            <br />
+            <br />
+            This page has been visited
+            <strong><span id="visitor-counter">0</span></strong> times.
+          </p>
+        </div>
+      </section>
+      <section class="cv-block info">
+        <div class="container">
+          <div class="work-experience group" id="work-experience">
+            <h2 class="text-center">Work Experience</h2>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Cloud Data Engineer Intern</h3>
+                  <h4 class="organization">
+                    National Bank Financial, Toronto, Canada
+                  </h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">May 2022 – Aug. 2023</time>
+                </div>
+              </div>
+              <p class="text-muted">
+                • Transitioned legacy SFTP-based ETL to real-time processing for
+                the FIX protocol using Python and QuickFIX.<br />
+                • Revamped an ETL pipeline to process 7-8 million daily trade
+                records, boosting speed by 50%.<br />
+                • Migrated SQLite to RDS Aurora MySQL, reducing costs by 30%
+                while maintaining seamless operations.<br />
+              </p>
+            </div>
+          </div>
+          <div class="education group" id="education">
+            <h2 class="text-center">Education</h2>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Honours Computer Science (Co-op)</h3>
+                  <h4 class="organization">
+                    McMaster University, Hamilton, Canada
+                  </h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">Aug. 2019 – Apr. 2024</time>
+                </div>
+              </div>
+              <p class="text-muted">
+                • Dean’s Honours List: 2019-2020, International Engineering
+                honours award ($1000).<br />
+                • Relevant Courses: Data Structures and Algorithms, Networking,
+                Software Development, Intro to ML.
+              </p>
+            </div>
+          </div>
+          <div class="cert group" id="certification">
+            <h2 class="text-center">Certifications</h2>
+            <div class="text-center">
+              <a
+                href="https://www.credly.com/badges/578769a9-8efe-4d2d-ad0e-cfd1b8d52188"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/aws_cloud_practitioner_badge.png"
+                  alt="AWS Cloud Practitioner"
+                  style="width: 200px; height: 200px; margin: 10px"
+                />
+              </a>
+              <a
+                href="https://www.credly.com/badges/df839288-06e6-45a9-aa34-0f10376dc126"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/aws_solution_architect_badge.png"
+                  alt="AWS Solutions Architect – Associate"
+                  style="width: 200px; height: 200px; margin: 10px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="group" id="skills">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skills info-card">
+                  <h2>Skills</h2>
+                  <ul>
+                    <li>
+                      Languages: Python, SQL, Java, JavaScript, PowerShell,
+                      Groovy, Bash, C/C++
+                    </li>
+                    <li>
+                      DevOps: Terraform & Ansible (IaC), Jenkins (CI/CD),
+                      Docker, Linux, Vault
+                    </li>
+                    <li>
+                      Tools: Vim, Nano, VS Code, Flask, Git, Atlassian
+                      (Bitbucket, Jira, Confluence)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="contact-info info-card">
+                  <h2>Contact Info</h2>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="ion-person icon"></i>
+                    </div>
+                    <div class="col-9">
+                      <span>David Li</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="ion-ios-telephone icon"></i>
+                    </div>
+                    <div class="col-9">
+                      <span>647-324-8768</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="ion-at icon"></i>
+                    </div>
+                    <div class="col-9">
+                      <span>liweita11@gmail.com</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="ion-link icon"></i>
+                    </div>
+                    <div class="col-9">
+                      <span
+                        ><a href="https://linkedin.com/in/davidli15"
+                          >LinkedIn</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="ion-link icon"></i>
+                    </div>
+                    <div class="col-9">
+                      <span
+                        ><a href="https://github.com/li-wei-ta">GitHub</a></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</html>
