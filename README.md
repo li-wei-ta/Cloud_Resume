@@ -12,4 +12,5 @@
        * AWS services - API Gateway, Lambda, DynamoDB
        * Languages - Python
     * Infrastructure as Code - Terraform 
-![image](https://github.com/user-attachments/assets/08397099-3ae9-4bb6-a539-93c24d5c4b99)
+
+![image](https://github.com/user-attachments/assets/f43e271c-68b0-4dfd-9849-425c0540cee5)
