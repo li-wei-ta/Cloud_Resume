@@ -31,6 +31,14 @@ variable "objects" {
       path         = "../src/assets/img/avatar.jpg"
       content_type = "image/jpeg"
     }
+    "assets/img/aws_cloud_practitioner_badge.png" = {
+      path         = "../src/assets/img/aws_cloud_practitioner_badge.png"
+      content_type = "image/png"
+    }
+    "assets/img/aws_solution_architect_badge.png" = {
+      path         = "../src/assets/img/aws_solution_architect_badge.png"
+      content_type = "image/png"
+    }
     "assets/js/script.js" = {
       path         = "../src/assets/js/script.js"
       content_type = "application/javascript"

@@ -12,6 +12,7 @@ resource "aws_s3_object" "my_objects" {
   bucket       = aws_s3_bucket.cr_bucket.id
   key          = each.key
   source       = each.value.path
+  etag         = filemd5(each.value.path)
   content_type = each.value.content_type
 }
 
