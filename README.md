@@ -13,5 +13,5 @@
        * Languages - Python
     * Infrastructure as Code - Terraform 
 
-![cloud_resume_diagram](https://github.com/user-attachments/assets/7f9b8e8f-d955-44e8-a4ad-270fac2a3dad)
+![cloud_resume_diagram](https://github.com/user-attachments/assets/f4f3c4a0-1169-4c0c-9281-53fa39ea527d)
 
