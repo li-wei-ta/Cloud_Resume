@@ -13,6 +13,14 @@
       href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Raleway:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav
@@ -39,10 +47,10 @@
               <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#certification">Certifications</a>
             </li>
             <li class="nav-item item">
-              <a class="nav-link" href="#certification">Certifications</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -54,16 +62,28 @@
           <div class="avatar">
             <img class="img-fluid rounded-circle" src="assets/img/avatar.jpg" />
           </div>
-          <p>
-            Hello! I am <strong>David Li</strong>, a cloud engineer with a
-            passion for developing scalable and secure cloud-based solutions. I
-            specialize in AWS services and enjoy working on projects that
-            involve automation, infrastructure as code, and web development.
-            <br />
-            <br />
-            This page has been visited
-            <strong><span id="visitor-counter">0</span></strong> times.
-          </p>
+          <div class="about-me">
+            <h1><strong> David Li</strong></h1>
+            <div class="contact-icons">
+              <a href="https://linkedin.com/in/davidli15" target="_blank"
+                ><i class="ion-social-linkedin"></i
+              ></a>
+              <a href="https://github.com/li-wei-ta" target="_blank"
+                ><i class="ion-social-github"></i
+              ></a>
+              <a href="mailto:liweita11@gmail.com"><i class="ion-at"></i></a>
+            </div>
+            <p>
+              I am an AWS certified cloud engineer passionate about building and
+              deploying scalable, secure cloud solutions. With expertise in AWS
+              services, infrastructure as code, software development, and DevOps
+              practices, I excel at delivering cloud-native applications.
+            </p>
+            <p>
+              This page has been visited
+              <strong><span id="visitor-counter">0</span></strong> times.
+            </p>
+          </div>
         </div>
       </section>
       <section class="cv-block info">
@@ -82,14 +102,26 @@
                   <time class="period">May 2022 – Aug. 2023</time>
                 </div>
               </div>
-              <p class="text-muted">
-                • Transitioned legacy SFTP-based ETL to real-time processing for
-                the FIX protocol using Python and QuickFIX.<br />
-                • Revamped an ETL pipeline to process 7-8 million daily trade
-                records, boosting speed by 50%.<br />
-                • Migrated SQLite to RDS Aurora MySQL, reducing costs by 30%
-                while maintaining seamless operations.<br />
-              </p>
+              <ul>
+                <li>
+                  Revamped ETL pipeline for processing 7-8 million daily trade
+                  records with Pandas for data transformation and SQLAlchemy for
+                  database interaction, boosting speed by 50% and reducing the
+                  codebase by 100+ lines
+                </li>
+                <li>
+                  Migrated SQLite database from EBS to RDS Aurora MySQL,
+                  executing SQL CRUD operations during the migration to ensure
+                  seamless data transfer, improving scalability and reducing
+                  database costs by 30%
+                </li>
+                <li>
+                  Monitored and debugged Jenkins CI/CD pipeline in Groovy
+                  ensuring 95% uptime for the team’s entire infrastructure,
+                  leveraging Terraform, Ansible, and bank-provided Docker images
+                  for compliance
+                </li>
+              </ul>
             </div>
           </div>
           <div class="education group" id="education">
@@ -97,7 +129,7 @@
             <div class="item">
               <div class="row">
                 <div class="col-md-6">
-                  <h3>Honours Computer Science (Co-op)</h3>
+                  <h3>B.A.Sc Honours Computer Science (Co-op)</h3>
                   <h4 class="organization">
                     McMaster University, Hamilton, Canada
                   </h4>
@@ -106,12 +138,12 @@
                   <time class="period">Aug. 2019 – Apr. 2024</time>
                 </div>
               </div>
-              <p class="text-muted">
-                • Dean’s Honours List: 2019-2020, International Engineering
-                honours award ($1000).<br />
-                • Relevant Courses: Data Structures and Algorithms, Networking,
-                Software Development, Intro to ML.
-              </p>
+              <ul>
+                <li>
+                  Relevant Courses: Data Structures and Algorithms, Networking,
+                  Software Development, Intro to ML
+                </li>
+              </ul>
             </div>
           </div>
           <div class="cert group" id="certification">
@@ -139,76 +171,55 @@
               </a>
             </div>
           </div>
-          <div class="group" id="skills">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="skills info-card">
-                  <h2>Skills</h2>
-                  <ul>
-                    <li>
-                      Languages: Python, SQL, Java, JavaScript, PowerShell,
-                      Groovy, Bash, C/C++
-                    </li>
-                    <li>
-                      DevOps: Terraform & Ansible (IaC), Jenkins (CI/CD),
-                      Docker, Linux, Vault
-                    </li>
-                    <li>
-                      Tools: Vim, Nano, VS Code, Flask, Git, Atlassian
-                      (Bitbucket, Jira, Confluence)
-                    </li>
-                  </ul>
+          <div class="projects group text-center" id="projects">
+            <h2 class="text-center mb-4">Personal Projects</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <div class="project-item">
+                  <h4>
+                    <a
+                      href="https://github.com/li-wei-ta/Cloud_Resume"
+                      target="_blank"
+                      class="project-link"
+                      >Cloud Resume Challenge</a
+                    >
+                  </h4>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="contact-info info-card">
-                  <h2>Contact Info</h2>
-                  <div class="row">
-                    <div class="col-1">
-                      <i class="ion-person icon"></i>
-                    </div>
-                    <div class="col-9">
-                      <span>David Li</span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1">
-                      <i class="ion-ios-telephone icon"></i>
-                    </div>
-                    <div class="col-9">
-                      <span>647-324-8768</span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1">
-                      <i class="ion-at icon"></i>
-                    </div>
-                    <div class="col-9">
-                      <span>liweita11@gmail.com</span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1">
-                      <i class="ion-link icon"></i>
-                    </div>
-                    <div class="col-9">
-                      <span
-                        ><a href="https://linkedin.com/in/davidli15"
-                          >LinkedIn</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1">
-                      <i class="ion-link icon"></i>
-                    </div>
-                    <div class="col-9">
-                      <span
-                        ><a href="https://github.com/li-wei-ta">GitHub</a></span
-                      >
-                    </div>
-                  </div>
+              <div class="col-md-5 mb-3">
+                <div class="project-item">
+                  <h4>
+                    <a
+                      href="https://github.com/li-wei-ta/Trading_Bot"
+                      target="_blank"
+                      class="project-link"
+                      >Trading Bot</a
+                    >
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-5 mb-3">
+                <div class="project-item">
+                  <h4>
+                    <a
+                      href="https://github.com/li-wei-ta/ConnectFour"
+                      target="_blank"
+                      class="project-link"
+                      >Connect4AI</a
+                    >
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-5 mb-3">
+                <div class="project-item">
+                  <h4>
+                    <a
+                      href="https://github.com/li-wei-ta/Sudoku/tree/main"
+                      target="_blank"
+                      class="project-link"
+                      >SudokuSolver</a
+                    >
+                  </h4>
                 </div>
               </div>
             </div>
