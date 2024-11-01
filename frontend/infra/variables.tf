@@ -31,12 +31,16 @@ variable "objects" {
       path         = "../src/assets/img/avatar.jpg"
       content_type = "image/jpeg"
     }
-    "assets/img/aws_cloud_practitioner_badge.PNG" = {
-      path         = "../src/assets/img/aws_cloud_practitioner_badge.PNG"
+    "assets/img/aws-certified-cloud-practitioner.png" = {
+      path         = "../src/assets/img/aws-certified-cloud-practitioner.png"
       content_type = "image/png"
     }
-    "assets/img/aws_solution_architect_badge.PNG" = {
-      path         = "../src/assets/img/aws_solution_architect_badge.PNG"
+    "assets/img/aws-certified-solutions-architect-associate.png" = {
+      path         = "../src/assets/img/aws-certified-solutions-architect-associate.png"
+      content_type = "image/png"
+    }
+    "assets/img/hashicorp-certified-terraform-associate-003.png" = {
+      path         = "../src/assets/img/hashicorp-certified-terraform-associate-003.png"
       content_type = "image/png"
     }
     "assets/js/script.js" = {
