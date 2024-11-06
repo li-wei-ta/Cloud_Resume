@@ -70,8 +70,7 @@ body{
 }
 
 .cv-block.block-intro {
-   background-color: lightgrey; /* Apply background to this section only */
-   height: 100vh; /* Set height to viewport height */
+   background-color: white; 
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
